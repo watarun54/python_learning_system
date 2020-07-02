@@ -1,0 +1,48 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Jan 18 09:21:48 2019
+# ------------------------------------------------
+
+package:
+    name: pamela
+    version: 1.0.0
+source:
+    fn: pamela-1.0.0.tar.gz
+    md5: 5fc14f5275383ed8bdd509007af0323d
+    url: https://pypi.io/packages/source/p/pamela/pamela-1.0.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: pip install --no-deps .
+    string: py_0
+requirements:
+    build:
+        - ca-certificates 2018.11.29 ha4d7672_0
+        - certifi 2018.11.29 py27_1000
+        - libffi 3.2.1 hf484d3e_1005
+        - libgcc-ng 7.3.0 hdf63c60_0
+        - libstdcxx-ng 7.3.0 hdf63c60_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.0.2p h14c3975_1002
+        - pip 18.1 py27_1000
+        - python 2.7.15 h938d71a_1006
+        - readline 7.0 hf8c457e_1001
+        - setuptools 40.6.3 py27_0
+        - sqlite 3.26.0 h67949de_1000
+        - tk 8.6.9 h84994c4_1000
+        - wheel 0.32.3 py27_0
+        - zlib 1.2.11 h14c3975_1004
+    run:
+        - python
+test:
+    imports:
+        - pamela
+about:
+    home: https://github.com/minrk/pamela
+    license: MIT
+    summary: PAM interface using ctypes
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - minrk

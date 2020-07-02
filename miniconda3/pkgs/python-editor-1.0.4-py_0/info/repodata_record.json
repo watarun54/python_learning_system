@@ -1,0 +1,24 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "python-editor-1.0.4-py_0.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "md5": "eaaf29a0644f9407f98a4665f45880c4",
+  "name": "python-editor",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "a6db88da69a27451d2eba675c445bdefd2dbea52ea02a0a214d5fd4f0af31740",
+  "size": 9342,
+  "subdir": "noarch",
+  "timestamp": 1549151973603,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-editor-1.0.4-py_0.tar.bz2",
+  "version": "1.0.4"
+}

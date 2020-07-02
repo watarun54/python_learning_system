@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "markupsafe >=0.9.2",
+    "python"
+  ],
+  "license": "MIT",
+  "name": "mako",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1564953939294,
+  "version": "1.1.0"
+}

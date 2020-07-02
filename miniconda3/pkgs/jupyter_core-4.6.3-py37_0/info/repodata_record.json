@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "traitlets"
+  ],
+  "features": "",
+  "fn": "jupyter_core-4.6.3-py37_0.conda",
+  "legacy_bz2_md5": "effa5eeb9d69a9bf05cd541a156f73a8",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "982641464203d287da573aa7bbc70c17",
+  "name": "jupyter_core",
+  "platform": "linux",
+  "sha256": "70751de26be3a942140b14e6773bca7fdd052c8600ee61ff87257455aeef9231",
+  "size": 72417,
+  "subdir": "linux-64",
+  "timestamp": 1585645218484,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/jupyter_core-4.6.3-py37_0.conda",
+  "version": "4.6.3"
+}

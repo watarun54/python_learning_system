@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/python_json_logger-0.1.11.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/python_json_logger-0.1.11.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "c15bc9948cf9868d661ea1a1e0f7242d567c0f83576bff4ba101f98de0707aeb",
+      "size_in_bytes": 1290
+    },
+    {
+      "_path": "site-packages/python_json_logger-0.1.11.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "083be823e5c5c7ac99f15e551a44359d94bf7b8e29edc8c2f2289f4e20d12088",
+      "size_in_bytes": 902
+    },
+    {
+      "_path": "site-packages/python_json_logger-0.1.11.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "ad406a75fca8aef2415068385d40fdfc558564d851b1c37777ee946f211a3301",
+      "size_in_bytes": 790
+    },
+    {
+      "_path": "site-packages/python_json_logger-0.1.11.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "87f6959f9381d8811152331b8b6a6e72647fcf3589b64df4dd85ef861eb4349f",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/python_json_logger-0.1.11.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f46f8eb1391bc0f80cf2df9b5ca3e658305166ff5c6f32c88840c4e449c69362",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "site-packages/pythonjsonlogger/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/pythonjsonlogger/jsonlogger.py",
+      "path_type": "hardlink",
+      "sha256": "edf56141cb7170331ad4dfa6def7fa5a9e7da20745556df36a111e37f2ffc923",
+      "size_in_bytes": 8137
+    }
+  ],
+  "paths_version": 1
+}

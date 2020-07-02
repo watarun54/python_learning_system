@@ -1,0 +1,60 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Feb 19 07:49:54 2020
+# ------------------------------------------------
+
+package:
+    name: idna
+    version: '2.9'
+source:
+    sha256: 7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb
+    url: https://pypi.io/packages/source/i/idna/idna-2.9.tar.gz
+build:
+    noarch: python
+    number: '1'
+    script: /home/conda/feedstock_root/build_artifacts/idna_1582098643792/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+        -m pip install . -vvv
+    string: py_1
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - ca-certificates 2019.11.28 hecc5488_0
+        - certifi 2019.11.28 py27_0
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1d h516909a_0
+        - pip 20.0.2 py_2
+        - python 2.7.15 h5a48372_1009
+        - readline 8.0 hf8c457e_0
+        - setuptools 44.0.0 py27_0
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.34.2 py_1
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - python
+test:
+    imports:
+        - idna
+about:
+    description: 'A library to support the Internationalised Domain Names in Applications
+
+        (IDNA) protocol as specified in RFC 5891. This version of the protocol
+
+        is often referred to as "IDNA2008".
+
+        '
+    home: https://github.com/kjd/idna
+    license: BSD Like
+    license_file: LICENSE.rst
+    summary: Internationalized Domain Names in Applications (IDNA).
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - jschueller

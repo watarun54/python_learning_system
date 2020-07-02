@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "cryptography >=1.4",
+    "python"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pyjwt",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1546054183420,
+  "version": "1.7.1"
+}

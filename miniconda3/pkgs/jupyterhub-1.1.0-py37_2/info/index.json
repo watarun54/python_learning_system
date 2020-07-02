@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37_2",
+  "build_number": 2,
+  "depends": [
+    "configurable-http-proxy",
+    "jupyterhub-base 1.1.0 py37_2",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "jupyterhub",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1580311984879,
+  "version": "1.1.0"
+}

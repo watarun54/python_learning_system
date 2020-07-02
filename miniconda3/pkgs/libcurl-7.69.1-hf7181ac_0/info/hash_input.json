@@ -1,0 +1,8 @@
+{
+  "zlib": "1.2",
+  "c_compiler": "gcc",
+  "krb5": "1.17.1",
+  "libssh2": "1.8",
+  "openssl": "1.1.1",
+  "c_compiler_version": "7"
+}

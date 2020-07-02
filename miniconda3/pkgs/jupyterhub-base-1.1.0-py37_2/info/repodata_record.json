@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "py37_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "python_abi * *_cp37m"
+  ],
+  "depends": [
+    "alembic",
+    "async_generator >=1.8",
+    "certipy >=0.1.2",
+    "entrypoints",
+    "jinja2",
+    "jupyter_telemetry",
+    "oauthlib >=3.0",
+    "pamela",
+    "prometheus_client >=0.0.21",
+    "pycurl",
+    "python >=3.7,<3.8.0a0",
+    "python-dateutil",
+    "requests",
+    "sqlalchemy >=1.1",
+    "tornado >=5.0",
+    "traitlets >=4.3.2"
+  ],
+  "features": "",
+  "fn": "jupyterhub-base-1.1.0-py37_2.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "32989233ce4e2549809bd250c2fe41d5",
+  "name": "jupyterhub-base",
+  "platform": "linux",
+  "sha256": "996cfdafdd87cbf089987301319123d60ad873497e8b1550f910c29d6f0a41aa",
+  "size": 1775291,
+  "subdir": "linux-64",
+  "timestamp": 1580311968373,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/jupyterhub-base-1.1.0-py37_2.tar.bz2",
+  "version": "1.1.0"
+}

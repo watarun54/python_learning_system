@@ -1,0 +1,24 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "python-json-logger-0.1.11-py_0.tar.bz2",
+  "license": "BSD 2-clause",
+  "license_family": "BSD",
+  "md5": "f4912fb7591c1deb9957beef3c18ad00",
+  "name": "python-json-logger",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "1d57c7345ff42708b954b7c479f07ce64eb57ebf71562bda92da637426845a96",
+  "size": 7832,
+  "subdir": "noarch",
+  "timestamp": 1558659502966,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-json-logger-0.1.11-py_0.tar.bz2",
+  "version": "0.1.11"
+}

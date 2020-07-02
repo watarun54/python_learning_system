@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "markupsafe >=0.9.2",
+    "python"
+  ],
+  "features": "",
+  "fn": "mako-1.1.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "27be2a84ad4f520062d706194a21a5c5",
+  "name": "mako",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "72175b986aa35be18e4066e89aa9e5764fa826203c0d688c78aeab14be86e2f9",
+  "size": 58442,
+  "subdir": "noarch",
+  "timestamp": 1564953939294,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/mako-1.1.0-py_0.tar.bz2",
+  "version": "1.1.0"
+}

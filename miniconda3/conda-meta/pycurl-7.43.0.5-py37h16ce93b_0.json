@@ -1,0 +1,73 @@
+{
+  "build": "py37h16ce93b_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "python_abi * *_cp37m"
+  ],
+  "depends": [
+    "libcurl >=7.64.1,<8.0a0",
+    "libgcc-ng >=7.3.0",
+    "openssl >=1.1.1a,<1.1.2a",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/home/ec2-user/miniconda3/pkgs/pycurl-7.43.0.5-py37h16ce93b_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/curl/__init__.py",
+    "lib/python3.7/site-packages/curl/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pycurl-7.43.0.5-py3.7.egg-info",
+    "lib/python3.7/site-packages/pycurl.cpython-37m-x86_64-linux-gnu.so"
+  ],
+  "fn": "pycurl-7.43.0.5-py37h16ce93b_0.tar.bz2",
+  "license": "LGPL, MIT",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/home/ec2-user/miniconda3/pkgs/pycurl-7.43.0.5-py37h16ce93b_0",
+    "type": 1
+  },
+  "md5": "ff6fa4b92967a724d10819edc7e13a0c",
+  "name": "pycurl",
+  "package_tarball_full_path": "/home/ec2-user/miniconda3/pkgs/pycurl-7.43.0.5-py37h16ce93b_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/curl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9766d278e7e71b16dc14dce242adf864a8f501aae03cbe0b89a3c8cd9ae9d260",
+        "sha256_in_prefix": "9766d278e7e71b16dc14dce242adf864a8f501aae03cbe0b89a3c8cd9ae9d260",
+        "size_in_bytes": 7203
+      },
+      {
+        "_path": "lib/python3.7/site-packages/curl/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac54665a9f718a2e06c5278cfe31fab0db44384371e3bdc74b26a7f7fc11da14",
+        "sha256_in_prefix": "ac54665a9f718a2e06c5278cfe31fab0db44384371e3bdc74b26a7f7fc11da14",
+        "size_in_bytes": 6412
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pycurl-7.43.0.5-py3.7.egg-info",
+        "path_type": "hardlink",
+        "sha256": "7fa0d14bd0669eb99ee48011eaa671dc6214177f11d3fd7415649068927fefdc",
+        "sha256_in_prefix": "7fa0d14bd0669eb99ee48011eaa671dc6214177f11d3fd7415649068927fefdc",
+        "size_in_bytes": 4690
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pycurl.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "813bedb3c61466b03742ec87a542afc1fff2ecc142ebe47f1acdec26596c019f",
+        "sha256_in_prefix": "813bedb3c61466b03742ec87a542afc1fff2ecc142ebe47f1acdec26596c019f",
+        "size_in_bytes": 164312
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b8f4689815566333a4a74985e665dc93db1492f3cb4e00dcfa6d0085d736492c",
+  "size": 70427,
+  "subdir": "linux-64",
+  "timestamp": 1580362176350,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pycurl-7.43.0.5-py37h16ce93b_0.tar.bz2",
+  "version": "7.43.0.5"
+}

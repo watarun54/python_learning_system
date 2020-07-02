@@ -1,0 +1,24 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "blinker-1.4-py_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "fa509a09190583f869ae442bf4d17f5f",
+  "name": "blinker",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "cd87bb2936f6e1f5c96258533c2fa2464e5a2fdedcd666501661506bc325ab93",
+  "size": 13009,
+  "subdir": "noarch",
+  "timestamp": 1529517899177,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/blinker-1.4-py_1.tar.bz2",
+  "version": "1.4"
+}

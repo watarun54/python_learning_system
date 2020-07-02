@@ -1,0 +1,27 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "blinker",
+    "cryptography",
+    "pyjwt >=1.0.0",
+    "python"
+  ],
+  "features": "",
+  "fn": "oauthlib-3.0.1-py_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "faaf2a8fd1cddecbf1818fcf0ed3a3b6",
+  "name": "oauthlib",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "a27e8a671698b0db7ca33b401475bdc98f4fcc1c65a3ac6e54995ae9776387f2",
+  "size": 84316,
+  "subdir": "noarch",
+  "timestamp": 1550635081510,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/oauthlib-3.0.1-py_0.tar.bz2",
+  "version": "3.0.1"
+}

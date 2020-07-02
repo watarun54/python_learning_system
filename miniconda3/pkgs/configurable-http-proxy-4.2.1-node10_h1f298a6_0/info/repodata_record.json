@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "node10_h1f298a6_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "nodejs 10.*"
+  ],
+  "features": "",
+  "fn": "configurable-http-proxy-4.2.1-node10_h1f298a6_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "70eab52e6dcec2e87c56e74092f54b9a",
+  "name": "configurable-http-proxy",
+  "platform": "linux",
+  "sha256": "564c30689d1ba375678d6b9e0fb072ea145e3591934646c5dd3fc77c0d83273a",
+  "size": 904062,
+  "subdir": "linux-64",
+  "timestamp": 1585321149428,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/configurable-http-proxy-4.2.1-node10_h1f298a6_0.tar.bz2",
+  "version": "4.2.1"
+}

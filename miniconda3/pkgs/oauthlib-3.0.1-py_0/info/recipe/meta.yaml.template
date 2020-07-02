@@ -1,0 +1,56 @@
+{% set name = "oauthlib" %}
+{% set version = "3.0.1" %}
+{% set compress_type = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash = "0ce32c5d989a1827e3f1148f98b9085ed2370fc939bf524c9c851d8714797298" %}
+{% set build = 0 %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash }}
+
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  build:
+    - python
+    - pip
+
+  run:
+    - python
+    - cryptography
+    - pyjwt >=1.0.0
+    - blinker
+
+test:
+  imports:
+    - oauthlib
+    - oauthlib.oauth1
+    - oauthlib.oauth1.rfc5849
+    - oauthlib.oauth1.rfc5849.endpoints
+    - oauthlib.oauth2
+    - oauthlib.oauth2.rfc6749
+    - oauthlib.oauth2.rfc6749.clients
+    - oauthlib.oauth2.rfc6749.endpoints
+    - oauthlib.oauth2.rfc6749.grant_types
+
+about:
+  home: https://github.com/idan/oauthlib
+  license_file: LICENSE
+  license: BSD 3-Clause
+  license_family: BSD
+  summary: 'A generic, spec-compliant, thorough implementation of the OAuth request-signing logic'
+  dev_url: https://github.com/idan/oauthlib
+  doc_url: https://oauthlib.readthedocs.io
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr

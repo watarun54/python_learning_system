@@ -1,0 +1,23 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "idna-2.9-py_1.tar.bz2",
+  "license": "BSD Like",
+  "md5": "846ba802162eb14046e303053b42ad61",
+  "name": "idna",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "a4aa43cae7c981a24d7ce0cbf8ecf84eadb3919e85777d5e8a6df19568345fe9",
+  "size": 52964,
+  "subdir": "noarch",
+  "timestamp": 1582098727467,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/idna-2.9-py_1.tar.bz2",
+  "version": "2.9"
+}

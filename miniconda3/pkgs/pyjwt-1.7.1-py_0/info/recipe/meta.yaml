@@ -1,0 +1,59 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat Dec 29 03:27:36 2018
+# ------------------------------------------------
+
+package:
+    name: pyjwt
+    version: 1.7.1
+source:
+    fn: PyJWT-1.7.1.tar.gz
+    sha256: 8d59a976fb773f3e6a39c85636357c4f0e242707394cadadd9814f5cbaa20e96
+    url: https://pypi.org/packages/source/P/PyJWT/PyJWT-1.7.1.tar.gz
+build:
+    entry_points:
+        - pyjwt = jwt.__main__:main
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    build:
+        - ca-certificates 2018.11.29 ha4d7672_0
+        - certifi 2018.11.29 py27_1000
+        - libffi 3.2.1 hfc679d8_5
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_2
+        - openssl 1.0.2p h470a237_1
+        - pip 18.1 py27_1000
+        - python 2.7.15 h33da82c_6
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.6.3 py27_0
+        - sqlite 3.26.0 hb1c47c0_0
+        - tk 8.6.9 ha92aebf_0
+        - wheel 0.32.3 py27_0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - cryptography >=1.4
+        - python
+test:
+    commands:
+        - pyjwt --help
+    imports:
+        - jwt
+        - jwt.contrib
+        - jwt.contrib.algorithms
+about:
+    dev_url: https://github.com/jpadilla/pyjwt
+    doc_url: https://pyjwt.readthedocs.io/en/latest/
+    home: https://github.com/jpadilla/pyjwt
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: JSON Web Token implementation in Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pmlandwehr

@@ -1,0 +1,24 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "zipp-3.1.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "61948e426a3a3ec1fa7c90a44c2585d1",
+  "name": "zipp",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "12b67191f7f9b7ec8bef1efbc9c5ca72ad49f1e87e7a8e5fe426bb36f7c4f094",
+  "size": 10142,
+  "subdir": "noarch",
+  "timestamp": 1583258898810,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/zipp-3.1.0-py_0.tar.bz2",
+  "version": "3.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "blinker",
+    "cryptography",
+    "pyjwt >=1.0.0",
+    "python"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "oauthlib",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1550635081510,
+  "version": "3.0.1"
+}

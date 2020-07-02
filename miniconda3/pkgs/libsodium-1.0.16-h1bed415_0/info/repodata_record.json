@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h1bed415_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.2.0"
+  ],
+  "features": "",
+  "fn": "libsodium-1.0.16-h1bed415_0.conda",
+  "legacy_bz2_md5": "d6da2bc1d41ffc4906f7502b233d487d",
+  "license": "ISC",
+  "md5": "523a3f30893e4a208d1ab426bd8c3495",
+  "name": "libsodium",
+  "platform": "linux",
+  "sha256": "87e871fcfd53d66a4bca3c916c38580e48748d5639cc5019d569980ea557fa98",
+  "size": 219158,
+  "subdir": "linux-64",
+  "timestamp": 1522217356801,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libsodium-1.0.16-h1bed415_0.conda",
+  "version": "1.0.16"
+}

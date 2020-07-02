@@ -1,0 +1,82 @@
+# This file created by conda-build 3.19.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat Mar 14 05:09:19 2020
+# ------------------------------------------------
+
+package:
+    name: chardet
+    version: 3.0.4
+source:
+    sha256: 84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae
+    url: https://pypi.io/packages/source/c/chardet/chardet-3.0.4.tar.gz
+build:
+    entry_points:
+        - chardetect = chardet.cli.chardetect:main
+    number: '1006'
+    script: /home/conda/feedstock_root/build_artifacts/chardet_1584162615032/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . -vvv
+    string: py37hc8dfbb8_1006
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - attrs 19.3.0 py_0
+        - ca-certificates 2019.11.28 hecc5488_0
+        - certifi 2019.11.28 py37hc8dfbb8_1
+        - importlib-metadata 1.5.0 py37hc8dfbb8_1
+        - importlib_metadata 1.5.0 1
+        - ld_impl_linux-64 2.33.1 h53a641e_8
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - more-itertools 8.2.0 py_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1d h516909a_0
+        - packaging 20.1 py_0
+        - pip 20.0.2 py_2
+        - pluggy 0.13.0 py37_0
+        - py 1.8.1 py_0
+        - pyparsing 2.4.6 py_0
+        - pytest 5.4.1 py37hc8dfbb8_0
+        - pytest-runner 5.2 py_0
+        - python 3.7.6 h357f687_4_cpython
+        - python_abi 3.7 1_cp37m
+        - readline 8.0 hf8c457e_0
+        - setuptools 46.0.0 py37hc8dfbb8_2
+        - six 1.14.0 py_1
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.10 hed695b0_0
+        - wcwidth 0.1.8 py_0
+        - wheel 0.34.2 py_1
+        - xz 5.2.4 h14c3975_1001
+        - zipp 3.1.0 py_0
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+test:
+    commands:
+        - chardetect --help
+    imports:
+        - chardet
+about:
+    description: 'chardet is a character encoding auto-detector in Python.
+
+        '
+    dev_url: https://github.com/chardet/chardet
+    doc_source_url: https://github.com/chardet/chardet/blob/master/docs/index.rst
+    doc_url: http://chardet.readthedocs.org/
+    home: https://github.com/chardet/chardet
+    license: LGPL2
+    license_family: GPL
+    license_file: LICENSE
+    summary: Universal character encoding detector
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dan-blanchard
+        - jschueller
+        - nehaljwani
+        - sigmavirus24

@@ -1,0 +1,28 @@
+{
+  "build": "pyh8c360ce_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "certifi >=2017.4.17",
+    "chardet >=3.0.2,<4",
+    "idna >=2.5,<3",
+    "python",
+    "urllib3 >=1.21.1,<1.26,!=1.25.0,!=1.25.1"
+  ],
+  "features": "",
+  "fn": "requests-2.23.0-pyh8c360ce_2.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "73055fb278196cccbf3c90e6d7115533",
+  "name": "requests",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "73488d2c250297f9662aa4ee1ad51d4e09cdaba3c245b9e6c6204cbc6f492ade",
+  "size": 48133,
+  "subdir": "noarch",
+  "timestamp": 1584347776699,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/requests-2.23.0-pyh8c360ce_2.tar.bz2",
+  "version": "2.23.0"
+}

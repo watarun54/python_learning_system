@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "decorator",
+    "ipython_genutils",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "traitlets-4.3.3-py37_0.conda",
+  "legacy_bz2_md5": "1e31d870dd09f8f0f93d567b164467ec",
+  "license": "BSD-3-Clause",
+  "md5": "1fc6a18ab845c4a0b2de501411f064b5",
+  "name": "traitlets",
+  "platform": "linux",
+  "sha256": "3b8d1b56aaa44f826e3189dd707781ab1bb9cd17dc53e5a77e466ac9aac324d2",
+  "size": 142980,
+  "subdir": "linux-64",
+  "timestamp": 1570464067737,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/traitlets-4.3.3-py37_0.conda",
+  "version": "4.3.3"
+}

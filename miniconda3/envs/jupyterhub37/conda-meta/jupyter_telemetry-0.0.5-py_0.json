@@ -1,0 +1,142 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "jsonschema",
+    "python >=3.5",
+    "python-json-logger",
+    "ruamel.yaml",
+    "traitlets"
+  ],
+  "extracted_package_dir": "/home/ec2-user/miniconda3/pkgs/jupyter_telemetry-0.0.5-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/jupyter_telemetry-0.0.5.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/jupyter_telemetry-0.0.5.dist-info/LICENSE",
+    "lib/python3.7/site-packages/jupyter_telemetry-0.0.5.dist-info/METADATA",
+    "lib/python3.7/site-packages/jupyter_telemetry-0.0.5.dist-info/RECORD",
+    "lib/python3.7/site-packages/jupyter_telemetry-0.0.5.dist-info/WHEEL",
+    "lib/python3.7/site-packages/jupyter_telemetry-0.0.5.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/jupyter_telemetry/__init__.py",
+    "lib/python3.7/site-packages/jupyter_telemetry/__version__.py",
+    "lib/python3.7/site-packages/jupyter_telemetry/eventlog.py",
+    "lib/python3.7/site-packages/jupyter_telemetry/traits.py",
+    "lib/python3.7/site-packages/jupyter_telemetry/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/jupyter_telemetry/__pycache__/__version__.cpython-37.pyc",
+    "lib/python3.7/site-packages/jupyter_telemetry/__pycache__/eventlog.cpython-37.pyc",
+    "lib/python3.7/site-packages/jupyter_telemetry/__pycache__/traits.cpython-37.pyc"
+  ],
+  "fn": "jupyter_telemetry-0.0.5-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ec2-user/miniconda3/pkgs/jupyter_telemetry-0.0.5-py_0",
+    "type": 1
+  },
+  "md5": "46d62a58c7dd1e6fcdaff59441285791",
+  "name": "jupyter_telemetry",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/ec2-user/miniconda3/pkgs/jupyter_telemetry-0.0.5-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1a69a9af7cab5ea8bbe6816a2785d90aa10dbc0206576e2b428d7f8d75e3e710",
+        "sha256_in_prefix": "1a69a9af7cab5ea8bbe6816a2785d90aa10dbc0206576e2b428d7f8d75e3e710",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "92d0076d48ade01756ade8894e6213903a75d3bb68e17d59759f6b6407b03e44",
+        "sha256_in_prefix": "92d0076d48ade01756ade8894e6213903a75d3bb68e17d59759f6b6407b03e44",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f59ed10540b91c656a0907b5ddc9b38878c2bbdb52d817173384abfd9e83758f",
+        "sha256_in_prefix": "f59ed10540b91c656a0907b5ddc9b38878c2bbdb52d817173384abfd9e83758f",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "adc66ede0a57b5c438e083d63a1f981b469596c06466ec1e5ec4a4206b8efb67",
+        "sha256_in_prefix": "adc66ede0a57b5c438e083d63a1f981b469596c06466ec1e5ec4a4206b8efb67",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a20246d01fd7bc60f299697d762e36291487fdbc6bc85049db71ed066e722a85",
+        "sha256_in_prefix": "a20246d01fd7bc60f299697d762e36291487fdbc6bc85049db71ed066e722a85",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry/eventlog.py",
+        "path_type": "hardlink",
+        "sha256": "8f344deaa9796d342397f793c54c8c9831ddde546aaa39fe83b0d2b503adfda8",
+        "sha256_in_prefix": "8f344deaa9796d342397f793c54c8c9831ddde546aaa39fe83b0d2b503adfda8",
+        "size_in_bytes": 4791
+      },
+      {
+        "_path": "site-packages/jupyter_telemetry/traits.py",
+        "path_type": "hardlink",
+        "sha256": "8affd336f5958b9c9d075f0326a4634dc909e86cc6e784b8ed0ae3b9fea0cbc8",
+        "sha256_in_prefix": "8affd336f5958b9c9d075f0326a4634dc909e86cc6e784b8ed0ae3b9fea0cbc8",
+        "size_in_bytes": 1422
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_telemetry/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_telemetry/__pycache__/__version__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_telemetry/__pycache__/eventlog.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_telemetry/__pycache__/traits.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ac315a41fb9425f5bbc5acabe0004b2091a3a7d2e03d1c66b363c96847256e29",
+  "size": 8405,
+  "subdir": "noarch",
+  "timestamp": 1581507514846,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/jupyter_telemetry-0.0.5-py_0.tar.bz2",
+  "version": "0.0.5"
+}

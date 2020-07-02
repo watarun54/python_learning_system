@@ -1,0 +1,9 @@
+{
+  "noarch": {
+    "entry_points": [
+      "certipy = certipy.command_line:main"
+    ],
+    "type": "python"
+  },
+  "package_metadata_version": 1
+}

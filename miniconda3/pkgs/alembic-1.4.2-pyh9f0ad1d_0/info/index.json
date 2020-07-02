@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "mako",
+    "python",
+    "python-dateutil",
+    "python-editor >=0.3",
+    "sqlalchemy >=1.1.0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "alembic",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1584695272090,
+  "version": "1.4.2"
+}

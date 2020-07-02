@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "pyopenssl",
+    "python >=3.3"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "certipy",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1557308898436,
+  "version": "0.1.3"
+}

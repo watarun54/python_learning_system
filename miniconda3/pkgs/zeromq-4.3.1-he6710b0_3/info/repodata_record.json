@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "he6710b0_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libsodium >=1.0.16,<1.0.17.0a0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "features": "",
+  "fn": "zeromq-4.3.1-he6710b0_3.conda",
+  "legacy_bz2_md5": "e59aaaa10e70ee13cdf89275fa6c09e0",
+  "license": "LGPL 3",
+  "md5": "404725cf94aaabcf50dcf280b619d999",
+  "name": "zeromq",
+  "platform": "linux",
+  "sha256": "769b09bc4c97d2028e6f1d827d801221aa3a36335cce2eee536da6e1fda15fbd",
+  "size": 507696,
+  "subdir": "linux-64",
+  "timestamp": 1549023379958,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/zeromq-4.3.1-he6710b0_3.conda",
+  "version": "4.3.1"
+}

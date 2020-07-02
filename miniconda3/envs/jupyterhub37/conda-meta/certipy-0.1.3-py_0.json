@@ -1,0 +1,157 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pyopenssl",
+    "python >=3.3"
+  ],
+  "extracted_package_dir": "/home/ec2-user/miniconda3/pkgs/certipy-0.1.3-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/certipy-0.1.3.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/certipy-0.1.3.dist-info/METADATA",
+    "lib/python3.7/site-packages/certipy-0.1.3.dist-info/RECORD",
+    "lib/python3.7/site-packages/certipy-0.1.3.dist-info/WHEEL",
+    "lib/python3.7/site-packages/certipy-0.1.3.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/certipy-0.1.3.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/certipy/__init__.py",
+    "lib/python3.7/site-packages/certipy/certipy.py",
+    "lib/python3.7/site-packages/certipy/command_line.py",
+    "lib/python3.7/site-packages/certipy/test/__init__.py",
+    "lib/python3.7/site-packages/certipy/test/test_certipy.py",
+    "lib/python3.7/site-packages/certipy/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/certipy/__pycache__/certipy.cpython-37.pyc",
+    "lib/python3.7/site-packages/certipy/__pycache__/command_line.cpython-37.pyc",
+    "lib/python3.7/site-packages/certipy/test/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/certipy/test/__pycache__/test_certipy.cpython-37.pyc",
+    "bin/certipy"
+  ],
+  "fn": "certipy-0.1.3-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ec2-user/miniconda3/pkgs/certipy-0.1.3-py_0",
+    "type": 1
+  },
+  "md5": "23486713ef5712923e7c57cae609b22e",
+  "name": "certipy",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/ec2-user/miniconda3/pkgs/certipy-0.1.3-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/certipy-0.1.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/certipy-0.1.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "48eb5661e8f73f21d530563e623aeff352a126e21e45e4a67f5b669fe540b0cf",
+        "sha256_in_prefix": "48eb5661e8f73f21d530563e623aeff352a126e21e45e4a67f5b669fe540b0cf",
+        "size_in_bytes": 3508
+      },
+      {
+        "_path": "site-packages/certipy-0.1.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3207fcb2bbd0682b6f015131580e5a2dcf835813cfb6ead9cbfa4566a22a401b",
+        "sha256_in_prefix": "3207fcb2bbd0682b6f015131580e5a2dcf835813cfb6ead9cbfa4566a22a401b",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "site-packages/certipy-0.1.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "baf39fb0fb9ef4a5ce2ee9816955f321a536d8664d87a644231a3193a30dce7c",
+        "sha256_in_prefix": "baf39fb0fb9ef4a5ce2ee9816955f321a536d8664d87a644231a3193a30dce7c",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/certipy-0.1.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4acbef2a8df82537d38478c0d4fd1a8c8f133e9133485ec4327198a0c705c64e",
+        "sha256_in_prefix": "4acbef2a8df82537d38478c0d4fd1a8c8f133e9133485ec4327198a0c705c64e",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/certipy-0.1.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "46c90a71185b32ecb0286ac53ccefaf6d6da62d6612fb01cff5245f7c6eb0101",
+        "sha256_in_prefix": "46c90a71185b32ecb0286ac53ccefaf6d6da62d6612fb01cff5245f7c6eb0101",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/certipy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bee2fa8b104388f9a5ea16892335ae4a380741e0b0b23ee436605a0ebd9bb6b2",
+        "sha256_in_prefix": "bee2fa8b104388f9a5ea16892335ae4a380741e0b0b23ee436605a0ebd9bb6b2",
+        "size_in_bytes": 3603
+      },
+      {
+        "_path": "site-packages/certipy/certipy.py",
+        "path_type": "hardlink",
+        "sha256": "98c9c93b26e5cfe361fc62b4fdc4f5ac23a017c5397b23d91b61d92ef9ce953c",
+        "sha256_in_prefix": "98c9c93b26e5cfe361fc62b4fdc4f5ac23a017c5397b23d91b61d92ef9ce953c",
+        "size_in_bytes": 28300
+      },
+      {
+        "_path": "site-packages/certipy/command_line.py",
+        "path_type": "hardlink",
+        "sha256": "91229ce25bbd93f124e9e44c7f905a264a185cf7fde470dca37285338044a28d",
+        "sha256_in_prefix": "91229ce25bbd93f124e9e44c7f905a264a185cf7fde470dca37285338044a28d",
+        "size_in_bytes": 6358
+      },
+      {
+        "_path": "site-packages/certipy/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c1afbae570c7172738ceead4d61eff819ae65f634ba8f9184a5c60c5f4746956",
+        "sha256_in_prefix": "c1afbae570c7172738ceead4d61eff819ae65f634ba8f9184a5c60c5f4746956",
+        "size_in_bytes": 3289
+      },
+      {
+        "_path": "site-packages/certipy/test/test_certipy.py",
+        "path_type": "hardlink",
+        "sha256": "e91a718f75aa57deda2beb64bdd23fda065fb455fc3c29e159e7472916a8bb6e",
+        "sha256_in_prefix": "e91a718f75aa57deda2beb64bdd23fda065fb455fc3c29e159e7472916a8bb6e",
+        "size_in_bytes": 13003
+      },
+      {
+        "_path": "lib/python3.7/site-packages/certipy/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/certipy/__pycache__/certipy.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/certipy/__pycache__/command_line.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/certipy/test/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/certipy/test/__pycache__/test_certipy.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/certipy",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f9ab82559881f22e9096562e33be6a9d1c0b705b039ee9e433b99ff96b069e36",
+  "size": 17382,
+  "subdir": "noarch",
+  "timestamp": 1557308898436,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/certipy-0.1.3-py_0.tar.bz2",
+  "version": "0.1.3"
+}

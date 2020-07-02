@@ -1,0 +1,70 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/traitlets-4.3.3-python_3.7-on-linux_64, last modified Mon Oct  7 15:58:36 2019
+# ------------------------------------------------
+
+package:
+    name: traitlets
+    version: 4.3.3
+source:
+    sha256: d023ee369ddd2763310e4c3eae1ff649689440d4ae59d7485eb4cfbbe3e359f7
+    url: https://pypi.io/packages/source/t/traitlets/traitlets-4.3.3.tar.gz
+build:
+    number: '0'
+    script: /tmp/build/80754af9/traitlets_1570464033053/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.8.28 0
+        - certifi 2019.9.11 py37_0
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 he6710b0_1
+        - openssl 1.1.1d h7b6447c_2
+        - pip 19.2.3 py37_0
+        - python 3.7.4 h265db76_1
+        - readline 7.0 h7b6447c_5
+        - setuptools 41.4.0 py37_0
+        - sqlite 3.30.0 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.33.6 py37_0
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - decorator
+        - ipython_genutils
+        - python >=3.7,<3.8.0a0
+        - six
+test:
+    imports:
+        - traitlets
+        - traitlets.config
+about:
+    description: 'Traitlets is a framework that lets Python classes have attributes
+        with
+
+        type checking, dynamically calculated default values, and "on change"
+
+        callbacks.
+
+        '
+    dev_url: https://github.com/ipython/traitlets
+    doc_source_url: https://github.com/ipython/traitlets/blob/master/docs/source/index.rst
+    doc_url: http://traitlets.readthedocs.org/en/stable/
+    home: http://ipython.org/
+    license: BSD-3-Clause
+    license_file: COPYING.md
+    summary: Configuration system for Python applications
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson

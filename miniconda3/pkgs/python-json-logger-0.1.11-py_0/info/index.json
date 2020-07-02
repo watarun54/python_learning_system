@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "BSD 2-clause",
+  "license_family": "BSD",
+  "name": "python-json-logger",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1558659502966,
+  "version": "0.1.11"
+}

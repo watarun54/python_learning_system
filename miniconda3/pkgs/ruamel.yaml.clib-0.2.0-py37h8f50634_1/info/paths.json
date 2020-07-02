@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/_ruamel_yaml.cpython-37m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "a4397335cd4eef5747ae9f0c3e0a00dd94b5a5605b836910d68c97c1ecbd1138",
+      "size_in_bytes": 408384
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ruamel.yaml.clib-0.2.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ruamel.yaml.clib-0.2.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "da385e110a15adce5149f50b610fc78cbf3537f84262f53f3cd121c307a14c48",
+      "size_in_bytes": 1116
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ruamel.yaml.clib-0.2.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "6b9f881e43a05edb6a94d3dd560ae8c805f11256885c09a105fd2c9c2cb12d42",
+      "size_in_bytes": 1897
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ruamel.yaml.clib-0.2.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "0e63051eba27b70307af9ee14351717f704495dcd1d0e6d9d21c7907353d69ea",
+      "size_in_bytes": 749
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ruamel.yaml.clib-0.2.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f5c1b1c10ded4d3ec602c74708f1aa2e2eb50d71a92565642eb7a7dcc42e0f49",
+      "size_in_bytes": 104
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ruamel.yaml.clib-0.2.0.dist-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "b8ccc27461cd768c3bfe29cec7aad96b11ba378e5c5561c4ad4d218e2b6f7a1b",
+      "size_in_bytes": 19
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ruamel.yaml.clib-0.2.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "d6c25b6b7206776b1a6f7bbfea45b234f4bcc86fc01ed3f425d99a0e80785c1d",
+      "size_in_bytes": 20
+    }
+  ],
+  "paths_version": 1
+}

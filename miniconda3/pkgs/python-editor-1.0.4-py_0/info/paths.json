@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/editor.py",
+      "path_type": "hardlink",
+      "sha256": "3b432efc0bef89c7ff556862a13843f2b264b431290c8bb9adf5df3d116864ba",
+      "size_in_bytes": 2988
+    },
+    {
+      "_path": "site-packages/python_editor-1.0.4-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "463c4267f0dbb147de807315eb82fd8e403d5cb89193389c27259d2ed28b691f",
+      "size_in_bytes": 2676
+    },
+    {
+      "_path": "site-packages/python_editor-1.0.4-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "05c3d591f8a23c3b44277328d0a75f89ecd0a57aec91c3910da94bb2a778b0ad",
+      "size_in_bytes": 214
+    },
+    {
+      "_path": "site-packages/python_editor-1.0.4-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/python_editor-1.0.4-py2.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "49af28b8f2334b2c9262306c2fb1284fa597074046832cc780584f5714f20f5a",
+      "size_in_bytes": 83
+    },
+    {
+      "_path": "site-packages/python_editor-1.0.4-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "001941a763e192f660176a654132e05352a4dd7a276052e5f31821813425ae8f",
+      "size_in_bytes": 7
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,64 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Feb 20 03:55:40 2019
+# ------------------------------------------------
+
+package:
+    name: oauthlib
+    version: 3.0.1
+source:
+    fn: oauthlib-3.0.1.tar.gz
+    sha256: 0ce32c5d989a1827e3f1148f98b9085ed2370fc939bf524c9c851d8714797298
+    url: https://pypi.org/packages/source/o/oauthlib/oauthlib-3.0.1.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    build:
+        - ca-certificates 2018.11.29 ha4d7672_0
+        - certifi 2018.11.29 py27_1000
+        - libffi 3.2.1 hf484d3e_1005
+        - libgcc-ng 7.3.0 hdf63c60_0
+        - libstdcxx-ng 7.3.0 hdf63c60_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.0.2p h14c3975_1002
+        - pip 19.0.2 py27_0
+        - python 2.7.15 h938d71a_1006
+        - readline 7.0 hf8c457e_1001
+        - setuptools 40.8.0 py27_0
+        - sqlite 3.26.0 h67949de_1000
+        - tk 8.6.9 h84994c4_1000
+        - wheel 0.33.1 py27_0
+        - zlib 1.2.11 h14c3975_1004
+    run:
+        - blinker
+        - cryptography
+        - pyjwt >=1.0.0
+        - python
+test:
+    imports:
+        - oauthlib
+        - oauthlib.oauth1
+        - oauthlib.oauth1.rfc5849
+        - oauthlib.oauth1.rfc5849.endpoints
+        - oauthlib.oauth2
+        - oauthlib.oauth2.rfc6749
+        - oauthlib.oauth2.rfc6749.clients
+        - oauthlib.oauth2.rfc6749.endpoints
+        - oauthlib.oauth2.rfc6749.grant_types
+about:
+    dev_url: https://github.com/idan/oauthlib
+    doc_url: https://oauthlib.readthedocs.io
+    home: https://github.com/idan/oauthlib
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing
+        logic
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pmlandwehr

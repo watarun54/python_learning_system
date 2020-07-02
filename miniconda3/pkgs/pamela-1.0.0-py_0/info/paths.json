@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/pamela-1.0.0.dist-info/COPYING",
+      "path_type": "hardlink",
+      "sha256": "acd56ac7af60d05ba761c496e90892bd8ce0ab4388b5399443d987bc3af3b311",
+      "size_in_bytes": 1326
+    },
+    {
+      "_path": "site-packages/pamela-1.0.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/pamela-1.0.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "26ad99b3db1ae7c34278c6f033c77a3b3fdc7cf115e9e20c2d0a90a204603fdd",
+      "size_in_bytes": 1527
+    },
+    {
+      "_path": "site-packages/pamela-1.0.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "3c9aa6d510c19955b4d9c641d572e1a82a156516acbb08cf4cc780bee1821678",
+      "size_in_bytes": 555
+    },
+    {
+      "_path": "site-packages/pamela-1.0.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "ff024574e624ee2df1c53f0494e91426f39d3af7cd19b47d83e6dfe94413eac5",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/pamela-1.0.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "b189830878ae8b22eb5a1df76bf467e3d9ea3954e6160fcc02d0d00db016c308",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "site-packages/pamela.py",
+      "path_type": "hardlink",
+      "sha256": "43ee093eb3c89a6000aebda10e778d3b659ce346a6558d1df109872b55c017e7",
+      "size_in_bytes": 15137
+    }
+  ],
+  "paths_version": 1
+}

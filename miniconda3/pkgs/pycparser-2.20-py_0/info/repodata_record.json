@@ -1,0 +1,23 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "pycparser-2.20-py_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "md5": "e0a3e66aaaac33386b3cf35b5523b2ce",
+  "name": "pycparser",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "179e316c528bf96cf68f4116b79479d07a9cb8be5da31b4b05a55ab38a97226f",
+  "size": 90906,
+  "subdir": "noarch",
+  "timestamp": 1583332813389,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pycparser-2.20-py_0.tar.bz2",
+  "version": "2.20"
+}

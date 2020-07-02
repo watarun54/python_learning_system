@@ -1,0 +1,423 @@
+commit 65b79a68ca60aae6eeadd60c0ca5b6f0a582c91a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Sep 30 23:02:55 2018 -0500
+
+    Bump version to 8.12.0
+
+commit 85d05daa27552d120b7a2b43be7ee48fc51a561e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Sep 2 13:58:05 2018 -0500
+
+    Bump version to 8.11.4
+
+commit e34a2371afc9193e971ac805822fc76decee8674
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Jul 14 03:57:57 2018 -0500
+
+    Bump version to 8.11.3
+
+commit 347d49f921677776c426c70dd670b6418cd6c8b6
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu May 10 16:50:31 2018 -0500
+
+    Bump version to 8.11.1
+    
+    - Remove libgcc from run dep (comes via run_exports)
+    - Add exception for vendored acOS DSO on linux :'(
+    - Specify make as build dep
+
+commit cff3be042051d9105712c52b2050f7789114ce8f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Jan 20 09:01:20 2018 -0500
+
+    Perform checks during test phase
+    
+    $PREFIX/bin is not in $PATH
+
+commit 1895949801c934c81322624f7b79e343fb205509
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Jan 20 08:59:24 2018 -0500
+
+    Skip libgcc on ppc64le
+
+commit 0c3c5bc07624e6396c9b97aa70952a0a37720e11
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 14 16:01:44 2017 -0700
+
+    macOS: use MACOSX_DEPLOYMENT_TARGET=10.9
+
+commit 2f28c38edd490d7176b5c5199d655208908ad823
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 27 01:37:34 2017 +0100
+
+    Generalize logging
+
+commit de0aba5bab1a18a5d60210d4ac20b5fac7f46e80
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 13:12:42 2017 +0100
+
+    Fix cross-compilation support
+
+commit 57a54b3041430eb7582252ebc46828cb31059dfa
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Aug 23 13:18:20 2017 +0100
+
+    Make recipe cross-compilation capable
+
+commit 75419037085bbbaa53efa58fe862849cc7661131
+Merge: c3b342a a474d5f
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 2 22:55:12 2018 +0100
+
+    Merge pull request #23 from minrk/893
+    
+    8.9.3
+
+commit a474d5f7468a954c17e7673d83a5ecddba681eb7
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 2 16:46:18 2018 +0100
+
+    8.9.3
+
+commit c3b342a9c6971698b7be1bb1e78b9fdfce65ba26
+Merge: c872e4c 8753712
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 2 16:45:10 2018 +0100
+
+    Merge pull request #19 from minrk/891
+    
+    node 8.9.1
+
+commit 875371247f6db9effdaa389849f08201f66a6f71
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 2 15:50:08 2018 +0100
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit b68df7e4e882be7cda9d78ba09d980aac02678a4
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jan 2 15:46:12 2018 +0100
+
+    fix dedupe on Windows
+    
+    have to use cmd /c because calling *.cmd directly ends the script immediately
+
+commit b179d1a6af42ad4ba56dbc9024991acbf1c9c9ac
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Nov 24 20:12:23 2017 +0100
+
+    install local npm on Windows
+    
+    instead of by name, which could get newer version over time
+
+commit cb1a0624b5080c7f6f98e2c8d4952c8a5baa1945
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Nov 24 20:07:58 2017 +0100
+
+    node 8.9.1
+
+commit c872e4c7fbeb6fcd68263f0dc31c6653d8193e98
+Merge: 9c16f83 6bd1a65
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Nov 24 19:09:50 2017 +0100
+
+    Merge pull request #18 from minrk/node-8
+    
+    node 8: windows
+
+commit 6bd1a65cb3c62200db147b81a64df696e93c4bd3
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Nov 24 14:25:40 2017 +0100
+
+    actually dedupe npm
+
+commit d539c7ecc3f991c37b0e909875f379e6114aecee
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Nov 24 14:25:15 2017 +0100
+
+    don't install node in LIBRARY_BIN
+    
+    it's not a unix-style structure on Windows (it puts executables in top-level %PREFIX%)
+
+commit e956a365088bf6944796a6c1af0d7c5bd983f2cc
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Nov 24 12:51:04 2017 +0100
+
+    npm is npm.cmd
+    
+    PATHEXT cannot be trusted
+
+commit 98456e62a2544d401093fe10aceb6efd8aa24ea1
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Nov 23 21:36:28 2017 +0100
+
+    dedupe npm on Windows
+    
+    makes too-long path errors slightly less likely
+
+commit e607d3eb215d30f7073be8b66def8e858d7faabd
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Nov 23 17:20:27 2017 +0100
+
+    update path to npm-cli
+    
+    it moved into bin/
+    
+    fixes install on Windows
+
+commit daddc79036786c683ecdcb1a8dc31207ae6fda24
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Nov 23 13:39:38 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 9656aae06fc85ddf8e905c5b5a043ff0841f50b6
+Author: Marcos Vanetta <marcos_vanetta@condenast.com>
+Date:   Thu Oct 26 18:15:32 2017 -0500
+
+    Bump node to 8.8.1
+
+commit 9c16f836d3564ba3be7f72fc45491c590413bfe5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:21:24 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 9094480ca85639113217db4ab524d14c6423290a
+Merge: 995933a 25a78eb
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Jun 7 16:59:50 2017 +0200
+
+    Merge pull request #11 from minrk/update
+    
+    release 6.11.0
+
+commit 25a78eb49c11098817666ccbf34d888abc071e08
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Jun 7 14:44:57 2017 +0200
+
+    6.11.0
+
+commit b39e2c3d7b21f7f078dc16c39c6505c13999de87
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Jun 7 14:41:59 2017 +0200
+
+    MNT: Re-rendered with conda-smithy 2.3.1
+
+commit 995933af775afc2ae8ee80f613a1b8d5fb429e8f
+Merge: d5203f0 be0785e
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Apr 19 15:49:44 2017 +0200
+
+    Merge pull request #10 from minrk/66
+    
+    6.10.2
+
+commit be0785e175639e64ff4dfb1451d814771237cb37
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Wed Apr 19 12:28:06 2017 +0200
+
+    ignore prefix in node executable
+    
+    patching it causes it to break,
+    and it doesn't seem to need patching.
+
+commit af72888511a0ba2c000984ef9126557fd75876e1
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 18 14:08:22 2017 +0200
+
+    test in build.sh
+    
+    to compare results before and after relocation
+
+commit ccf62efcadef2150d0afbfe258efc56e21d3a167
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Apr 18 13:38:45 2017 +0200
+
+    parallel build
+
+commit 3ba7bfc0e349948df9c070321144f68549becf60
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Apr 7 15:59:34 2017 +0200
+
+    toolchain
+
+commit 2a7704a650119e0bd4278a7e8c7845014d3ea38e
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Apr 6 11:36:26 2017 +0200
+
+    MNT: Re-rendered with conda-smithy 2.2.2
+
+commit f96fd8a8c0b794b13d7e469c31038845667def3b
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Apr 6 11:36:08 2017 +0200
+
+    6.10.2
+
+commit b0fb75b4249f1cbaedce1a14fedcc0d39fa29953
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Apr 6 11:36:03 2017 +0200
+
+    remove py27 skip
+    
+    prevents building when current env is Python 3
+    
+    build requirements already pin Python to 2.7, so the skip is redundant
+
+commit 1a1e1b6a05390eb7529d7decf7d9e83c168fd4f6
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Feb 12 11:24:49 2017 +0100
+
+    6.9.5
+
+commit e8e1672d3413708ca115fcf0b517be45ee10125e
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Sun Feb 12 11:23:18 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.1 [ci skip]
+
+commit d5203f0ad890a4b061aa4e33a65a6ea857817797
+Merge: ae3eee0 a351c0f
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Dec 5 11:04:49 2016 +0100
+
+    Merge pull request #6 from minrk/6
+    
+    Release node 6.6.0
+
+commit ae3eee0c9148fa677024c36a44a706427b814e89
+Merge: e282fca c157950
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Mon Dec 5 11:04:21 2016 +0100
+
+    Merge pull request #8 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit c157950d7372b124e0e1fbd24d7fb9cd6a236300
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Dec 5 01:38:52 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.6.1.
+
+commit e282fca98eab3cbd568d76f9da356faa92cc937b
+Merge: c248287 38d48ad
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Nov 18 01:44:08 2016 -0500
+
+    Merge pull request #7 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 38d48adb7d0054cb4db7d789de4e823b0f8d362a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Nov 16 01:42:10 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.5.3.
+
+commit a351c0fec2a22f461b84b42e4895a996c983aded
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Fri Sep 16 13:10:31 2016 +0200
+
+    Release node 6.6.0
+
+commit c248287603748c4029d05f0a12bc8ad35c1c7fe7
+Merge: 9c89406 526aa05
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Sep 15 11:28:42 2016 -0300
+
+    Merge pull request #5 from minrk/add-self
+    
+    add minrk to maintainers
+
+commit 526aa058d12020101fa57811a10bff82adf42349
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Sep 15 16:20:05 2016 +0200
+
+    add minrk to maintainers [skip ci]
+    
+    in alphabetical order
+
+commit 9c894068181c4e8ee3e27d8a4f79feeb7fbdb04f
+Merge: 869349d e7e73d8
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Sep 15 11:21:20 2016 -0300
+
+    Merge pull request #4 from minrk/4.5.0
+    
+    Release 4.5.0
+
+commit e7e73d8942a325f3ed9f713b75cc54eba24ff9a1
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Sep 15 14:50:16 2016 +0200
+
+    release 4.5.0
+
+commit 9f13d57ea2a1cb2ec18903b25f276ffcaf8bc523
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Thu Sep 15 14:36:53 2016 +0200
+
+    MNT: rerender with conda-smithy 1.2.0
+
+commit 869349dfe0d172703803e5dd69e9b0a6a8ceca75
+Merge: 13ea88b db37d33
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Tue Jul 5 12:17:29 2016 -0500
+
+    Merge pull request #3 from minrk/447
+    
+    bump to 4.4.7
+
+commit db37d3384daf2b7bbf91c5bafa55a29a494f6fe9
+Author: Min RK <benjaminrk@gmail.com>
+Date:   Tue Jul 5 18:16:28 2016 +0200
+
+    bump to 4.4.7
+    
+    current LTS release
+
+commit 13ea88b64713b7612af981f16e67bddd26b92515
+Merge: d0ec042 47e32f4
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Jun 4 15:31:19 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 47e32f4d33186ad25a49f44a7fcf4ab84b9d6e78
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu May 12 08:27:19 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.0.
+    
+    [ci skip]
+
+commit d0ec042cf65a546e1b065786ce08b37d5362e087
+Merge: 262ea06 75811dc
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Wed May 11 19:49:38 2016 +0100
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 75811dc80766281602943c3d182dcdfcacf4b264
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed May 11 18:45:30 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.9.2.
+    
+    [ci skip]
+
+commit 262ea06867972e897d52e2bc99b860ff02d91d7d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 7 14:31:16 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 4f2ac22fb9491cc8df9d91d31b78e0900ece4a3e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Apr 7 14:30:19 2016 +0000
+
+    Initial commit of the nodejs feedstock.

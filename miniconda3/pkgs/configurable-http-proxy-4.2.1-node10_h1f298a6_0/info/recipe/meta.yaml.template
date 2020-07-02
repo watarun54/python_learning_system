@@ -1,0 +1,48 @@
+{% set name = "configurable-http-proxy" %}
+{% set version = "4.2.1" %}
+{% set build = 0 %}
+
+{% if not node %}
+# rerender doesn't always pull node value from conda_build_config on first pass
+# this value will never be used in a real build
+{% set node = 1 %}
+{% endif %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
+  sha256: f40c055b881805636f874fea4a9e5af37ba375d04b2e67f11e32acc8addf3f6f
+
+build:
+  number: {{ build }}
+  string: node{{ node }}_h{{ PKG_HASH }}_{{ build }}
+  script:
+    - npm pack  # [not win]
+    - NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc npm install -g {{name}}-{{version}}.tgz  # [not win]
+
+requirements:
+  host:
+    - nodejs {{ node }}.*
+  run:
+    - nodejs {{ node }}.*
+
+test:
+  commands:
+    - configurable-http-proxy -h
+    - test -f $PREFIX/bin/configurable-http-proxy  # [not win]
+    - if not exist %PREFIX%\\configurable-http-proxy exit 1    # [win]
+
+about:
+  home: https://github.com/jupyterhub/configurable-http-proxy
+  license: BSD 3-Clause
+  license_file: LICENSE
+  summary: node-http-proxy plus a REST API
+
+extra:
+  recipe-maintainers:
+    - minrk
+    - willingc

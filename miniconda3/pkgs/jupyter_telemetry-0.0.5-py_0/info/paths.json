@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "1a69a9af7cab5ea8bbe6816a2785d90aa10dbc0206576e2b428d7f8d75e3e710",
+      "size_in_bytes": 1523
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "92d0076d48ade01756ade8894e6213903a75d3bb68e17d59759f6b6407b03e44",
+      "size_in_bytes": 730
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "f59ed10540b91c656a0907b5ddc9b38878c2bbdb52d817173384abfd9e83758f",
+      "size_in_bytes": 1112
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry-0.0.5.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "adc66ede0a57b5c438e083d63a1f981b469596c06466ec1e5ec4a4206b8efb67",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "a20246d01fd7bc60f299697d762e36291487fdbc6bc85049db71ed066e722a85",
+      "size_in_bytes": 111
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry/__version__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry/eventlog.py",
+      "path_type": "hardlink",
+      "sha256": "8f344deaa9796d342397f793c54c8c9831ddde546aaa39fe83b0d2b503adfda8",
+      "size_in_bytes": 4791
+    },
+    {
+      "_path": "site-packages/jupyter_telemetry/traits.py",
+      "path_type": "hardlink",
+      "sha256": "8affd336f5958b9c9d075f0326a4634dc909e86cc6e784b8ed0ae3b9fea0cbc8",
+      "size_in_bytes": 1422
+    }
+  ],
+  "paths_version": 1
+}

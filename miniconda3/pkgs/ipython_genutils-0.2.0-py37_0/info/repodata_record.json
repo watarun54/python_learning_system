@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "ipython_genutils-0.2.0-py37_0.conda",
+  "legacy_bz2_md5": "3f663952d0c9fc552ba341ed6dab38e3",
+  "license": "BSD 3-Clause",
+  "md5": "2ee762470440d89c1295952b4c598335",
+  "name": "ipython_genutils",
+  "platform": "linux",
+  "sha256": "98dd3fb611348918718ec2e482491c1170fec1acbb69a9beb9796e896b4bd0ba",
+  "size": 40431,
+  "subdir": "linux-64",
+  "timestamp": 1530694294222,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/ipython_genutils-0.2.0-py37_0.conda",
+  "version": "0.2.0"
+}

@@ -1,0 +1,75 @@
+# This file created by conda-build 3.19.1
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Mar 20 09:05:35 2020
+# ------------------------------------------------
+
+package:
+    name: alembic
+    version: 1.4.2
+source:
+    fn: alembic-1.4.2.tar.gz
+    sha256: 035ab00497217628bf5d0be82d664d8713ab13d37b630084da8e1f98facf4dbf
+    url: https://pypi.org/packages/source/a/alembic/alembic-1.4.2.tar.gz
+build:
+    entry_points:
+        - alembic = alembic.config:main
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/alembic_1584695185056/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . --no-deps -vv
+    string: pyh9f0ad1d_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - ca-certificates 2019.11.28 hecc5488_0
+        - certifi 2019.11.28 py36h9f0ad1d_1
+        - ld_impl_linux-64 2.34 h53a641e_0
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1e h516909a_0
+        - pip 20.0.2 py_2
+        - python 3.6.10 h9d8adfe_1009_cpython
+        - python_abi 3.6 1_cp36m
+        - readline 8.0 hf8c457e_0
+        - setuptools 46.0.0 py36h9f0ad1d_2
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.34.2 py_1
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - mako
+        - python
+        - python-dateutil
+        - python-editor >=0.3
+        - sqlalchemy >=1.1.0
+test:
+    commands:
+        - alembic --help
+    imports:
+        - alembic
+        - alembic.autogenerate
+        - alembic.ddl
+        - alembic.operations
+        - alembic.runtime
+        - alembic.script
+        - alembic.util
+about:
+    dev_url: https://bitbucket.org/zzzeek/alembic
+    doc_url: http://alembic.zzzcomputing.com/en/latest/
+    home: https://bitbucket.org/zzzeek/alembic
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: A database migration tool for SQLAlchemy.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - anguslees
+        - pmlandwehr
+        - xylar

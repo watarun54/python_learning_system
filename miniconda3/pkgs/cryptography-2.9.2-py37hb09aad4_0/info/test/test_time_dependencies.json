@@ -1,0 +1,1 @@
+["iso8601", "pytest", "pytz", "hypothesis", "pretend", "cryptography-vectors 2.9.2.*"]

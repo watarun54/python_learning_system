@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_1",
+  "build_number": 1,
+  "depends": [
+    "decorator",
+    "ipython_genutils",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "six"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "traitlets",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1583995854498,
+  "version": "4.3.3"
+}

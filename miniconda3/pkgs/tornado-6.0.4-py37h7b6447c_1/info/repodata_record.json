@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py37h7b6447c_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "tornado-6.0.4-py37h7b6447c_1.conda",
+  "legacy_bz2_md5": "95494de5a054319080c4236a65032393",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "3d2cff671951b55004782939f7d6ebb7",
+  "name": "tornado",
+  "platform": "linux",
+  "sha256": "428defdcb8486074853eba7ead3fe5bb34f1a71f0534793c3b31b67d75232d57",
+  "size": 625735,
+  "subdir": "linux-64",
+  "timestamp": 1584026756160,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/tornado-6.0.4-py37h7b6447c_1.conda",
+  "version": "6.0.4"
+}

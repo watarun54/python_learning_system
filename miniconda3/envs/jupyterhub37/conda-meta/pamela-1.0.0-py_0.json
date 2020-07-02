@@ -1,0 +1,99 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/ec2-user/miniconda3/pkgs/pamela-1.0.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/pamela-1.0.0.dist-info/COPYING",
+    "lib/python3.7/site-packages/pamela-1.0.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pamela-1.0.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pamela-1.0.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pamela-1.0.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pamela-1.0.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pamela.py",
+    "lib/python3.7/site-packages/__pycache__/pamela.cpython-37.pyc"
+  ],
+  "fn": "pamela-1.0.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/ec2-user/miniconda3/pkgs/pamela-1.0.0-py_0",
+    "type": 1
+  },
+  "md5": "36f6f18d2f3ae0c93d77a9dbedad08c3",
+  "name": "pamela",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/ec2-user/miniconda3/pkgs/pamela-1.0.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pamela-1.0.0.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "acd56ac7af60d05ba761c496e90892bd8ce0ab4388b5399443d987bc3af3b311",
+        "sha256_in_prefix": "acd56ac7af60d05ba761c496e90892bd8ce0ab4388b5399443d987bc3af3b311",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "site-packages/pamela-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/pamela-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "26ad99b3db1ae7c34278c6f033c77a3b3fdc7cf115e9e20c2d0a90a204603fdd",
+        "sha256_in_prefix": "26ad99b3db1ae7c34278c6f033c77a3b3fdc7cf115e9e20c2d0a90a204603fdd",
+        "size_in_bytes": 1527
+      },
+      {
+        "_path": "site-packages/pamela-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3c9aa6d510c19955b4d9c641d572e1a82a156516acbb08cf4cc780bee1821678",
+        "sha256_in_prefix": "3c9aa6d510c19955b4d9c641d572e1a82a156516acbb08cf4cc780bee1821678",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "site-packages/pamela-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff024574e624ee2df1c53f0494e91426f39d3af7cd19b47d83e6dfe94413eac5",
+        "sha256_in_prefix": "ff024574e624ee2df1c53f0494e91426f39d3af7cd19b47d83e6dfe94413eac5",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/pamela-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b189830878ae8b22eb5a1df76bf467e3d9ea3954e6160fcc02d0d00db016c308",
+        "sha256_in_prefix": "b189830878ae8b22eb5a1df76bf467e3d9ea3954e6160fcc02d0d00db016c308",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/pamela.py",
+        "path_type": "hardlink",
+        "sha256": "43ee093eb3c89a6000aebda10e778d3b659ce346a6558d1df109872b55c017e7",
+        "sha256_in_prefix": "43ee093eb3c89a6000aebda10e778d3b659ce346a6558d1df109872b55c017e7",
+        "size_in_bytes": 15137
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/pamela.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "77f9e626d9012b0158979fab5e335f993bea277e66a0deb73906edfff9dffb8f",
+  "size": 9044,
+  "subdir": "noarch",
+  "timestamp": 1547803488205,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pamela-1.0.0-py_0.tar.bz2",
+  "version": "1.0.0"
+}

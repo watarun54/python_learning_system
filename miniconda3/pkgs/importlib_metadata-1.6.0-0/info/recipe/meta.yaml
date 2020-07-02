@@ -1,0 +1,31 @@
+# This file created by conda-build 3.19.1
+# ------------------------------------------------
+
+package:
+    name: importlib_metadata
+    version: 1.6.0
+source:
+    sha256: 34513a8a0c4962bc66d35b359558fd8a5e10cd472d37aec5f66858addef32c1e
+    url: https://pypi.io/packages/source/i/importlib_metadata/importlib_metadata-1.6.0.tar.gz
+build:
+    noarch: generic
+    number: 0
+    string: '0'
+requirements:
+    run:
+        - importlib-metadata >=1.6.0,<1.6.1.0a0
+test:
+    imports:
+        - importlib_metadata
+about:
+    home: https://gitlab.com/python-devs/importlib_metadata
+    license: Apache-2.0
+    license_family: APACHE
+    license_file: LICENSE
+    summary: A library to access the metadata for a Python package
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani
+        - nicoddemus

@@ -1,0 +1,101 @@
+==> 2020-06-04 06:00:32 <==
+# cmd: /home/ec2-user/miniconda3/bin/conda create -n jupyterhub37 python=3.7
+# conda version: 4.8.3
++defaults/linux-64::_libgcc_mutex-0.1-main
++defaults/linux-64::ca-certificates-2020.1.1-0
++defaults/linux-64::certifi-2020.4.5.1-py37_0
++defaults/linux-64::ld_impl_linux-64-2.33.1-h53a641e_7
++defaults/linux-64::libedit-3.1.20181209-hc058e9b_0
++defaults/linux-64::libffi-3.3-he6710b0_1
++defaults/linux-64::libgcc-ng-9.1.0-hdf63c60_0
++defaults/linux-64::libstdcxx-ng-9.1.0-hdf63c60_0
++defaults/linux-64::ncurses-6.2-he6710b0_1
++defaults/linux-64::openssl-1.1.1g-h7b6447c_0
++defaults/linux-64::pip-20.0.2-py37_3
++defaults/linux-64::python-3.7.7-hcff3b4d_5
++defaults/linux-64::readline-8.0-h7b6447c_0
++defaults/linux-64::setuptools-46.4.0-py37_0
++defaults/linux-64::sqlite-3.31.1-h62c20be_1
++defaults/linux-64::tk-8.6.8-hbc83047_0
++defaults/linux-64::wheel-0.34.2-py37_0
++defaults/linux-64::xz-5.2.5-h7b6447c_0
++defaults/linux-64::zlib-1.2.11-h7b6447c_3
+# update specs: ['python=3.7']
+==> 2020-06-04 06:00:57 <==
+# cmd: /home/ec2-user/miniconda3/bin/conda install jupyter_client
+# conda version: 4.8.3
++defaults/linux-64::entrypoints-0.3-py37_0
++defaults/linux-64::ipython_genutils-0.2.0-py37_0
++defaults/linux-64::jupyter_core-4.6.3-py37_0
++defaults/linux-64::libsodium-1.0.16-h1bed415_0
++defaults/linux-64::pyzmq-18.1.1-py37he6710b0_0
++defaults/linux-64::six-1.14.0-py37_0
++defaults/linux-64::tornado-6.0.4-py37h7b6447c_1
++defaults/linux-64::traitlets-4.3.3-py37_0
++defaults/linux-64::zeromq-4.3.1-he6710b0_3
++defaults/noarch::decorator-4.4.2-py_0
++defaults/noarch::jupyter_client-6.1.3-py_0
++defaults/noarch::python-dateutil-2.8.1-py_0
+# update specs: ['jupyter_client']
+==> 2020-06-04 06:12:13 <==
+# cmd: /home/ec2-user/miniconda3/bin/conda install -c conda-forge jupyterhub
+# conda version: 4.8.3
+-defaults/linux-64::ca-certificates-2020.1.1-0
+-defaults/linux-64::certifi-2020.4.5.1-py37_0
+-defaults/linux-64::openssl-1.1.1g-h7b6447c_0
++conda-forge/linux-64::brotlipy-0.7.0-py37h8f50634_1000
++conda-forge/linux-64::ca-certificates-2020.4.5.1-hecc5488_0
++conda-forge/linux-64::certifi-2020.4.5.1-py37hc8dfbb8_0
++conda-forge/linux-64::chardet-3.0.4-py37hc8dfbb8_1006
++conda-forge/linux-64::configurable-http-proxy-4.2.1-node10_h1f298a6_0
++conda-forge/linux-64::cryptography-2.9.2-py37hb09aad4_0
++conda-forge/linux-64::importlib-metadata-1.6.0-py37hc8dfbb8_0
++conda-forge/linux-64::jsonschema-3.2.0-py37hc8dfbb8_1
++conda-forge/linux-64::jupyterhub-1.1.0-py37_2
++conda-forge/linux-64::jupyterhub-base-1.1.0-py37_2
++conda-forge/linux-64::libcurl-7.69.1-hf7181ac_0
++conda-forge/linux-64::libssh2-1.9.0-hab1572f_2
++conda-forge/linux-64::markupsafe-1.1.1-py37h8f50634_1
++conda-forge/linux-64::openssl-1.1.1g-h516909a_0
++conda-forge/linux-64::pycurl-7.43.0.5-py37h16ce93b_0
++conda-forge/linux-64::pyrsistent-0.16.0-py37h8f50634_0
++conda-forge/linux-64::pysocks-1.7.1-py37hc8dfbb8_1
++conda-forge/linux-64::python_abi-3.7-1_cp37m
++conda-forge/linux-64::ruamel.yaml-0.16.6-py37h8f50634_1
++conda-forge/linux-64::ruamel.yaml.clib-0.2.0-py37h8f50634_1
++conda-forge/linux-64::sqlalchemy-1.3.17-py37h8f50634_0
++conda-forge/noarch::alembic-1.4.2-pyh9f0ad1d_0
++conda-forge/noarch::async_generator-1.10-py_0
++conda-forge/noarch::attrs-19.3.0-py_0
++conda-forge/noarch::blinker-1.4-py_1
++conda-forge/noarch::certipy-0.1.3-py_0
++conda-forge/noarch::idna-2.9-py_1
++conda-forge/noarch::importlib_metadata-1.6.0-0
++conda-forge/noarch::jinja2-2.11.2-pyh9f0ad1d_0
++conda-forge/noarch::jupyter_telemetry-0.0.5-py_0
++conda-forge/noarch::mako-1.1.0-py_0
++conda-forge/noarch::oauthlib-3.0.1-py_0
++conda-forge/noarch::pamela-1.0.0-py_0
++conda-forge/noarch::prometheus_client-0.8.0-pyh9f0ad1d_0
++conda-forge/noarch::pycparser-2.20-py_0
++conda-forge/noarch::pyjwt-1.7.1-py_0
++conda-forge/noarch::pyopenssl-19.1.0-py_1
++conda-forge/noarch::python-editor-1.0.4-py_0
++conda-forge/noarch::python-json-logger-0.1.11-py_0
++conda-forge/noarch::requests-2.23.0-pyh8c360ce_2
++conda-forge/noarch::urllib3-1.25.9-py_0
++conda-forge/noarch::zipp-3.1.0-py_0
++defaults/linux-64::cffi-1.14.0-py37he30daa8_1
++defaults/linux-64::krb5-1.17.1-h173b8e3_0
++defaults/linux-64::nodejs-10.13.0-he6710b0_0
+# update specs: ['jupyterhub']
+==> 2020-06-04 06:12:23 <==
+# cmd: /home/ec2-user/miniconda3/bin/conda install jupyter_client
+# conda version: 4.8.3
+-conda-forge/linux-64::ca-certificates-2020.4.5.1-hecc5488_0
+-conda-forge/linux-64::certifi-2020.4.5.1-py37hc8dfbb8_0
+-conda-forge/linux-64::openssl-1.1.1g-h516909a_0
++defaults/linux-64::ca-certificates-2020.1.1-0
++defaults/linux-64::certifi-2020.4.5.1-py37_0
++defaults/linux-64::openssl-1.1.1g-h7b6447c_0
+# update specs: ['jupyter_client']

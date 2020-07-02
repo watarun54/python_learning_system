@@ -1,0 +1,71 @@
+# This file created by conda-build 3.19.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Mar 12 13:02:34 2020
+# ------------------------------------------------
+
+package:
+    name: markupsafe
+    version: 1.1.1
+source:
+    sha256: 29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b
+    url: https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-1.1.1.tar.gz
+build:
+    number: '1'
+    script: /home/conda/feedstock_root/build_artifacts/markupsafe_1584018210123/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install . --no-deps -vv
+    string: py37h8f50634_1
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - binutils_impl_linux-64 2.33.1 h53a641e_8
+        - binutils_linux-64 2.33.1 h9595d00_17
+        - gcc_impl_linux-64 7.3.0 hd420e75_5
+        - gcc_linux-64 7.3.0 h553295d_17
+        - ld_impl_linux-64 2.33.1 h53a641e_8
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - ca-certificates 2019.11.28 hecc5488_0
+        - certifi 2019.11.28 py37hc8dfbb8_1
+        - ld_impl_linux-64 2.33.1 h53a641e_8
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1d h516909a_0
+        - pip 20.0.2 py_2
+        - python 3.7.6 h357f687_4_cpython
+        - python_abi 3.7 1_cp37m
+        - readline 8.0 hf8c457e_0
+        - setuptools 46.0.0 py37hc8dfbb8_2
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.34.2 py_1
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - libgcc-ng >=7.3.0
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+test:
+    imports:
+        - markupsafe
+about:
+    dev_url: https://github.com/pallets/markupsafe
+    home: https://www.palletsprojects.com/p/markupsafe
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE.rst
+    summary: A Python module that implements the jinja2.Markup string
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pelson
+        - scopatz
